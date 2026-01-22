@@ -1,2 +1,9 @@
-data/
-archive/
+# Ignore everything
+*
+
+# But not these file types
+!*.py
+!*.ipynb
+
+# Also keep the .gitignore itself
+!.gitignore
